@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: self-hosted
+pool:
+  vmImage: ubuntu-latest
 
 strategy:
   matrix:
